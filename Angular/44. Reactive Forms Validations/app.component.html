@@ -1,0 +1,19 @@
+  
+  <h2>Reactive Form Validations </h2>
+
+  <div class="col-sm-3">
+  <form [formGroup]="loginForm">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" formControlName="email" placeholder="Enter email">
+      <span class="error" *ngIf="email.invalid && email.touched">Email is not valid</span>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" formControlName="password" placeholder="Password">
+    </div>
+ 
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

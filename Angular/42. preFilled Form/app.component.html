@@ -1,0 +1,12 @@
+<!--Template Driven form-->
+  
+<h2>Prefilled Angular Form</h2>
+
+<form #userForm="ngForm">
+    <input type="text" name="email" [ngModel]="userData.email"><br>
+    <input type="text" name="password" [ngModel]="userData.password"><br>
+    <input type="text" name="mobile" [ngModel]="userData.mobile"><br>
+    <input type="text" name="address" [ngModel]="userData.address"><br>
+    <button type="submit">Submit</button>
+    
+</form>

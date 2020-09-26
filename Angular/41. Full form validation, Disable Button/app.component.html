@@ -1,0 +1,48 @@
+<!--Template Driven form-->
+
+<h2>Bootstrap in Angular</h2>
+  
+<div class="col-sm-3">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" required ngModel class="form-control" email name="email" placeholder="email" aria-describedby="emailHelp"
+          #email="ngModel"
+          >
+          <span 
+          *ngIf="email.invalid && email.touched"
+          class="error"
+          >Email is not valid</span>
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" #password="ngModel" required minlength="8" maxlength="12" required ngModel class="form-control" name="password" placeholder="password">
+          <span 
+          *ngIf="password.invalid && password.touched"
+          class="error"
+          >password is not Valid</span> 
+       
+        </div>
+
+        <div class="form-group">
+            <label>Phone</label>
+            <input type="text" pattern="[0-9]*" required minlength="8" maxlength="12" #mobile="ngModel" ngModel class="form-control" name="mobile" placeholder="mobile">
+            <span 
+            *ngIf="mobile.invalid && mobile.touched"
+            class="error"
+            >Mobile is not Valid</span>  
+        
+        </div>
+
+        <div class="form-group">
+        <label for="">Address</label>
+        <input type="password" #address="ngModel" pattern="[a-zA-Z]*" required ngModel class="form-control" name="address" placeholder="address">
+        </div>
+        <span 
+        *ngIf="address.invalid && address.touched"
+        class="error"
+        >Address is not Valid</span>  <br>
+
+        <button type="submit" [disabled]="userForm.invalid"  class="btn btn-primary">Submit</button>
+      </form>
+</div>

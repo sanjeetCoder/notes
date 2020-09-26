@@ -1,0 +1,25 @@
+<!--simple form in angular: 
+
+-->
+
+<h1 style="color:red">Api Post</h1>
+<form [formGroup]='restofForm' (ngSubmit)="callApi()">
+  <label>Name
+    <input type="text" formControlName="name">
+  </label>
+
+  <label>Email
+    <input type="text" formControlName="email">
+  </label>
+
+  <label>password
+    <input type="text" formControlName="password">
+  </label>
+
+  <label>confirmpwd
+    <input type="text" formControlName="confirmpwd">
+  </label>
+
+
+  <button>Submit Data</button>
+</form>

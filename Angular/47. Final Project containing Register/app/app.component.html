@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" routerLink="">Resto</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="navbar-nav">
+        <!-- <a  href="#">Home <span class="sr-only">(current)</span></a> -->
+      <a class="nav-item nav-link" routerLink="add">Add Restaurant</a>
+      <a class="nav-item nav-link" routerLink="">List Restaurant</a>
+      <!-- <a class="nav-item nav-link" routerLink="update">Update Restaurant</a> -->
+      <a class="nav-item nav-link" routerLink="login">Login </a>
+      <a class="nav-item nav-link" routerLink="register">Register </a>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+  <footer>
+    <p>Register your Restaurant with us</p>
+  </footer>
+
+</div>
+

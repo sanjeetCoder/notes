@@ -1,0 +1,16 @@
+<!--Generate component by command :- ng generate component user-list    or    ng g c user-list    -->
+
+<h1>Property Binding :- Sometimes we can not use the property of a component by using interpolation, 
+  we need the comcept of property binding</h1>
+
+<input type="text" name="{{title}}" disabled/>   <!--Interpolation--> 
+<input type="text" [name]="title" disabled/>     <!--Property Binding-->
+<br/><br/>
+
+
+<!--Solving through property binding-->
+
+<input type="text" [name]="title" disabled={{disableTextBox}}/>     <!-- Interpolation Binding-->
+<input type="text" [name]="title" [disabled]="disableTextBox"/>     <!--Property Binding-->
+
+

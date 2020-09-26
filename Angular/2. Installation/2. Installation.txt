@@ -1,0 +1,13 @@
+------------------------Installation-----------------------------
+
+---Links---
+
+For Linux-Ubuntu----https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
+For Window----https://phoenixnap.com/kb/install-node-js-npm-on-windows
+
+---Installation---
+
+npm install -g @angular/cli
+ng new projectName
+cd projectName
+ng serve

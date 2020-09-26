@@ -1,0 +1,16 @@
+<!--simple form in angular: 
+  step 1: Add ReactiveFormsModule  in app.module.ts 
+  step 2: Include FormBuilder in app.component.ts
+  step 3: Create a constructor
+  step 4: Create form in app.component.html, use formGroup to call tutInfo, ngSubmit to call value, 
+  formControlName to bind field property
+
+-->
+
+<h1> Simple form </h1>
+
+<form [formGroup]='tutInfo' (ngSubmit)="onSubmit(tutInfo.value)">
+  <input type="text" formControlName="user">
+  <input type="text" formControlName="address">
+  <button type="submit">Submit</button>
+</form>

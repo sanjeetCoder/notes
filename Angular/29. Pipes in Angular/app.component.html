@@ -1,0 +1,16 @@
+<!--simple form in angular: 
+https://angular.io/api?type=pipe
+https://www.youtube.com/playlist?list=PL8p2I9GklV45k_Ykk-Fy-Df_l2sq78u3N
+-->
+<h2>pipes in Angular in Angular</h2>
+<p>A pipe takes in data as input and transforms it to a desired output</p>
+
+<!--It will directly changes the data-->
+<p>{{"sanjeet"|uppercase}}</p>
+<p>{{"SANJEET"|lowercase}}</p>
+
+<!--Data coming from ts file:   titleCase makes first character is captital -->
+<p>{{name|titlecase}}</p>
+<p>{{message|titlecase}}</p>
+<p>{{fullName|slice:3:10}}</p>
+<p>{{birthday|date:'fullDate'|uppercase}}</p>

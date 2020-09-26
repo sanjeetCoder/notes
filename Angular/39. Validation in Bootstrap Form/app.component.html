@@ -1,0 +1,24 @@
+<!--Template Driven form-->
+
+<h2>Bootstrap in Angular</h2>
+  
+<div class="col-sm-3">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" required ngModel class="form-control" name="email" aria-describedby="emailHelp"
+          #email="ngModel"
+          >
+          <span 
+          *ngIf="email.invalid && email.touched"
+          class="error"
+          >Email field can't be blank</span>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" required ngModel class="form-control" name="password">
+        </div>
+ 
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</div>

@@ -1,0 +1,32 @@
+<!--Generate component by command :- ng generate component user-list    or    ng g c user-list    -->
+
+<h1> *ngIf :- It is used to check if else condition</h1>
+
+<!--If condition, when condition is true-->
+<h2 *ngIf="true"
+>If Block is here
+</h2>
+
+<!--If condition ,when condition is false-->
+<h2 *ngIf="false"
+>If Block will not visible here
+</h2>
+
+<!--If condition ,when condition is true in component -->
+<h2 *ngIf="true"
+>If Block will be visible here
+</h2>
+
+<!--If-else condition ,when condition is true in component -->
+
+<h2 *ngIf="show; then ifBlock; else elseBlock"
+>If Block will be visible here
+</h2>
+
+<ng-template #ifBlock>
+  <h2>Else block is here</h2>
+</ng-template>
+
+<ng-template #elseBlock>
+    <h2>Else block is here</h2>
+</ng-template>

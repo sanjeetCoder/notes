@@ -1,0 +1,12 @@
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+input.ng-valid{
+    border-left: 5px solid green;
+}
+
+input.ng-invalid{
+    border-left: 5px solid red;
+}
+
+.error{
+    color: red;
+}

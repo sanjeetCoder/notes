@@ -1,0 +1,10 @@
+  
+  <h2>Reactive Form </h2>
+
+<form [formGroup]="loginForm" (ngSubmit)="collectedData()">
+    <input type="text" name="username" formControlName="username"><br><br>
+    <input type="password" name="password" formControlName="password"><br><br>
+    <button type="submit">Login</button>
+
+
+</form>
