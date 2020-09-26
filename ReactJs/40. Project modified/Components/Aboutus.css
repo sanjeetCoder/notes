@@ -1,0 +1,20 @@
+.About {
+    background-color: #0f0e0e;
+}
+.About h1 ,p{
+    color: white;
+    text-align: center;
+}
+.About h2 {
+    color: yellow;
+
+}
+
+#leff{
+    float: left;
+    width: 50%;
+}
+#righh {
+    float: right;
+    width: 48%;
+}

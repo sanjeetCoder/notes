@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    background-color: sandybrown;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.logo {
+    width: 121px;
+    height: 100px;
+}
+.adjst {
+    max-width: 100%;
+    height: auto;
+    padding: 0%;
+    margin-top: 0px;
+}
+.form {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+.form h4 {
+    color: yellow;
+    font-size: 18px;
+}
+.form p{
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: inherit;
+}
+.form h3{
+    color: white;
+    font-size: 18px;
+}
+
+#sub {
+    background-color: yellow;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#pay {
+    background-color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#select {
+    font-size: 18px;
+    padding: 5px;
+}

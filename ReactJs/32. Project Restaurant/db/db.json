@@ -1,0 +1,45 @@
+{
+  "login": [
+    {
+      "name": "sanjeet",
+      "password": "sanjeet@123"
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "Pizza Queen",
+      "email": "pizzaqueen@test.com",
+      "rating": "3.9",
+      "address": "Chandigarh",
+      "id": 5
+    },
+    {
+      "name": "Barbeque",
+      "email": "bardeque@gmail.com",
+      "rating": "4.8",
+      "address": "Gurgaon",
+      "id": 7
+    },
+    {
+      "name": "ABC",
+      "email": "abc@gmail.com",
+      "rating": "4.5",
+      "address": "Banglore",
+      "id": 8
+    },
+    {
+      "name": "Haloween",
+      "email": "haloween@gmail.com",
+      "rating": "4.3",
+      "address": "Noida",
+      "id": 9
+    },
+    {
+      "name": "Burger King",
+      "email": "burgerking@gmail.com",
+      "rating": "4.3",
+      "address": "Delhi",
+      "id": 10
+    }
+  ]
+}

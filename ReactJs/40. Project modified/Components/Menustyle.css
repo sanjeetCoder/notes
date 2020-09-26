@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Menustyle {
+    width: 92%;
+    float: right;
+    height: 100px;
+    background-color:sandybrown;
+    color: yellow;
+    text-decoration: none;
+}
+
+.Menustyle ul {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Menustyle ul li {
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    
+}
+.Menustyle ul li :hover{
+    color: yellow;
+}
+.Menustyle ul li link{
+    color: white;
+}
