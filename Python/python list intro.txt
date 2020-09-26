@@ -1,0 +1,15 @@
+#List Intro
+#List Type
+#List Print
+#Access
+#List Duplicate
+#List Mutable
+#List Slicing
+#List Indexed
+#List Ordered
+#List Addition
+#List Iteration
+# Replace
+# del
+
+ 
