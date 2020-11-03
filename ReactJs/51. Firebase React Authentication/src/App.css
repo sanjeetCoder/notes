@@ -1,0 +1,12 @@
+.App{
+  text-align: center;
+}
+.navbar a{
+  color:#fff;
+  text-decoration: none;
+  }
+  .navbar a:hover{
+      color:#ddd;
+      text-decoration: none;
+  }
+  
