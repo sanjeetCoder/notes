@@ -1,0 +1,18 @@
+.actions {
+  opacity: 0;
+}
+
+tr:hover .actions {
+  opacity: 1;
+}
+
+tbody td a {
+  color: #fff;
+  &:hover {
+    color: rgb(150, 146, 170);
+  }
+}
+.Card {
+  width: 286px;
+  height: 180px;
+}
