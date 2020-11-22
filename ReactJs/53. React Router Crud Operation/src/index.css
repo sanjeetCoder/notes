@@ -1,0 +1,10 @@
+.not-found {
+  position: fixed;
+  width: 100vw; /*view width--100%*/
+  height: 100vh;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
