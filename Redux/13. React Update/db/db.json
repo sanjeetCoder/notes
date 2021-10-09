@@ -1,0 +1,81 @@
+{
+  "details": [
+    {
+      "name": "sanju coder",
+      "email": "sanjucoder@gmail.com",
+      "phone": "9877181097",
+      "country": "India",
+      "id": 1
+    },
+    {
+      "name": "angelcoder",
+      "email": "angel@gmail.com",
+      "phone": "9877181097",
+      "country": "Aus",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Anjali",
+      "email": "Anjali@gmail.com",
+      "phone": "9877181097",
+      "country": "Australia"
+    },
+    {
+      "name": "Jack coder",
+      "email": "jackcoder@gmail.com",
+      "phone": "9877181097",
+      "country": "India",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Alice",
+      "email": "Alice@gmail.com",
+      "phone": "9878181097",
+      "country": "India"
+    },
+    {
+      "name": "Rohit",
+      "email": "rohit@gmail.com",
+      "phone": "9877911097",
+      "country": "Aus",
+      "id": 6
+    },
+    {
+      "name": "India",
+      "email": "sanjeet@gmail.com",
+      "phone": "9877161986",
+      "country": "",
+      "id": 7
+    },
+    {
+      "name": "Sanjeet Coder",
+      "email": "sanjeet@gmail.com",
+      "phone": "9877191062",
+      "country": "India",
+      "id": 8
+    },
+    {
+      "name": "coder",
+      "email": "coder@gmail.com",
+      "phone": "9877656543",
+      "country": "USA",
+      "id": 9
+    },
+    {
+      "name": "sanju",
+      "email": "sanjeet@gmail.com",
+      "phone": "9877181097",
+      "country": "India",
+      "id": 10
+    },
+    {
+      "name": "Sanjeet Coder",
+      "email": "sanjeet@gmail.com",
+      "phone": "9877181062",
+      "country": "India",
+      "id": 11
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "name": "sanjeet",
+      "email": "sanjeet@gmail.com",
+      "phone": "9877181097",
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "name": "angel",
+      "email": "angel@gmail.com",
+      "phone": "9877181097",
+      "country": "Aus"
+    },
+    {
+      "id": 3,
+      "name": "Anjali",
+      "email": "Anjali@gmail.com",
+      "phone": "9877181097",
+      "country": "Australia"
+    },
+    {
+      "id": 4,
+      "name": "Jack",
+      "email": "jack@gmail.com",
+      "phone": "9877181097",
+      "country": "Germany"
+    },
+    {
+      "id": 5,
+      "name": "Alice",
+      "email": "Alice@gmail.com",
+      "phone": "9878181097",
+      "country": "India"
+    },
+    {
+      "id": 6,
+      "name": "sohail",
+      "email": "sohail@gmail.com",
+      "phone": "9877181098",
+      "country": "Pakistan"
+    },
+    {
+      "name": "sanjeet",
+      "email": "sohail@gmail.com",
+      "phone": "9877181098",
+      "country": "Pakistan",
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "name": "Sanjeet Coder",
+      "email": "sa@gmail.com",
+      "phone": "55454545454",
+      "country": "India",
+      "id": 9
+    },
+    {
+      "name": "asas",
+      "email": "kumarisuman95605@gmail.com",
+      "phone": "54545454",
+      "country": "India",
+      "id": 10
+    },
+    {
+      "name": "Sanjeet Coder",
+      "email": "kumarisuman95605@gmail.com",
+      "phone": "9898989898",
+      "country": "India",
+      "id": 11
+    },
+    {
+      "name": "Sanjeet Coder",
+      "email": "kumarisuman95605@gmail.com",
+      "phone": "98888",
+      "country": "India",
+      "id": 12
+    },
+    {
+      "name": "Sanjeet Coder",
+      "email": "ssds@gmail.com",
+      "phone": "9877181062",
+      "country": "India",
+      "id": 13
+    },
+    {
+      "name": "Sanjeet Coder",
+      "email": "kumarisuman95605@gmail.com",
+      "phone": "545454",
+      "country": "India",
+      "id": 14
+    }
+  ]
+}

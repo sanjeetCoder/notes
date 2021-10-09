@@ -1,0 +1,56 @@
+export const GET_DETAILS = 'GET_DETAILS';
+
+const initialState = {
+  details: [
+    {
+      id: 1,
+      name: 'sanjeet',
+      email: 'sanjeet@gmail.com',
+      phone: '9877181097',
+      country: 'India',
+    },
+
+    {
+      id: 2,
+      name: 'angel',
+      email: 'angel@gmail.com',
+      phone: '9877181097',
+      country: 'Aus',
+    },
+
+    {
+      id: 3,
+      name: 'Anjali',
+      email: 'Anjali@gmail.com',
+      phone: '9877181097',
+      country: 'Australia',
+    },
+
+    {
+      id: 4,
+      name: 'Jack',
+      email: 'jack@gmail.com',
+      phone: '9877181097',
+      country: 'Germany',
+    },
+
+    {
+      id: 5,
+      name: 'Alice',
+      email: 'Alice@gmail.com',
+      phone: '9878181097',
+      country: 'India',
+    },
+  ],
+};
+
+const Reducer = (state = initialState, action) => {
+  switch (action.type) {
+    case GET_DETAILS:
+      return state;
+    default:
+      return state;
+  }
+};
+
+export default Reducer;

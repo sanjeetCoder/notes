@@ -1,0 +1,53 @@
+{
+  "details": [
+    {
+      "name": "sanjeet CODER",
+      "email": "sanjeetcoder@gmail.com",
+      "phone": "9877181097",
+      "country": "India",
+      "id": 1
+    },
+    {
+      "name": "angel coder",
+      "email": "angelcoder@gmail.com",
+      "phone": "9877181097",
+      "country": "India",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Anjali",
+      "email": "Anjali@gmail.com",
+      "phone": "9877181097",
+      "country": "Australia"
+    },
+    {
+      "name": "Jack coder",
+      "email": "jackcoder@gmail.com",
+      "phone": "9877181097",
+      "country": "Aus",
+      "id": 4
+    },
+    {
+      "name": "Rohit coder",
+      "email": "rohitcoder@gmail.com",
+      "phone": "9877181097",
+      "country": "Aus",
+      "id": 5
+    },
+    {
+      "name": "Alice coder",
+      "email": "angelcoder@gmail.com",
+      "phone": "9877181069",
+      "country": "India",
+      "id": 6
+    },
+    {
+      "name": "Sanjeet coder",
+      "email": "sanjeetcoder@gmail.com",
+      "phone": "9877181069",
+      "country": "India",
+      "id": 6
+    }
+  ]
+}
